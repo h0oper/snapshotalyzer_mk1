@@ -14,7 +14,8 @@ Guru uses the configuration file created by the AWS cli e.g.
 
 ## Running
 
-'pipenv run python guru/guru.py <command> <--project=PROJECTNAME>'
+'pipenv run python guru/guru.py <command> <subcommand> <--project=PROJECTNAME>'
 
-*command* is list, start, or stop
+*command* is instance, volumes, or snapshots
+*subcommand* depends on command
 *project* is optional
